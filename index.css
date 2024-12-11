@@ -1,0 +1,32 @@
+*{
+    background-color: palegreen;
+    border: none;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;
+    margin-top: 20%;
+}
+.hola{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+    background-color: rgb(104, 141, 141);
+    border-radius: 0.5rem;
+    padding: 0.5%;
+}
+.boton{
+    background-color: rgb(211, 138, 138);
+    border-radius: 0.2rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    font-weight: 900;
+}
+.boton:hover{
+    scale: 140%;
+    transition: 1s;
+    background-color: gold;
+    cursor:pointer;
+}
